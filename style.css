@@ -38,13 +38,6 @@ body{
     margin: 0 auto;
 }
 
-.logo{
-    height: 120px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
-}
-
 .main-nav{
     float: right;
     margin-top: 60px;
@@ -333,7 +326,7 @@ h1{
 
     .main-nav li{
         display: block;
-        margin-top: 2px;
+        margin-top: 4px;
     }
 
     .footer-para{
@@ -352,6 +345,22 @@ h1{
 
     h2{
         font-size: 130%;
+    }
+    .mobile-icon{
+        display: inline-block;
+        color: white;
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+
+    }
+    .main-nav{
+        float: left;
+    }
+
+    .main-nav li{
+        display: block;
+        margin-top: 2px;
     }
 
     .footer-para{
